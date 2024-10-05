@@ -1,3 +1,4 @@
+# https://qdrant.tech/documentation/frameworks/langchain/#hybrid-vector-search
 import os
 from langchain_community.document_loaders import CSVLoader
 from langchain_qdrant import QdrantVectorStore, FastEmbedSparse, RetrievalMode
